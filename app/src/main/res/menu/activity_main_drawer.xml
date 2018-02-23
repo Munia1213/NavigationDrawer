@@ -1,32 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    tools:showIn="navigation_view">
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view"
+      android:paddingBottom="@dimen/design_navigation_separator_vertical_padding">
 
-    <group android:checkableBehavior="single">
+
+    <group
+        android:id="@+id/item_1"
+        android:checkableBehavior="single">
         <item
+            android:checkable="true"
             android:id="@+id/nav_history"
             android:title="History" />
+     </group>
+
+    <group
+        android:id="@+id/item_2"
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_promo"
             android:title="Promotions" />
+    </group>
+
+    <group
+        android:id="@+id/item_3"
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_discount"
             android:title="Get Discount" />
+    </group>
+
+    <group
+        android:id="@+id/item_4"
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_notifications"
             android:title="Notifications" />
+    </group>
 
+    <group
+        android:id="@+id/item_5"
+        android:checkableBehavior="single">
         <item
             android:id="@+id/nav_setting"
             android:title="Setting" />
-        <item
-            android:id="@+id/nav_help"
-
-            android:title="help" />
-
     </group>
 
-
+    <group
+        android:id="@+id/item_6"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_help"
+            android:title="help" />
+    </group>
 
 </menu>
