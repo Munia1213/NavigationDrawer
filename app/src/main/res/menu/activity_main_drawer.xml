@@ -11,7 +11,9 @@
         <item
             android:checkable="true"
             android:id="@+id/nav_history"
-            android:title="History" />
+            android:title="History"
+            android:icon="@drawable/ic_history_icon"
+            />
      </group>
 
     <group
@@ -19,7 +21,8 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_promo"
-            android:title="Promotions" />
+            android:title="Promotions"
+            android:icon="@drawable/ic_settings_icon"/>
     </group>
 
     <group
@@ -27,7 +30,9 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_discount"
-            android:title="Get Discount" />
+            android:title="Get Discount"
+            android:icon="@drawable/ic_discount_icon"
+        />
     </group>
 
     <group
@@ -35,7 +40,8 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_notifications"
-            android:title="Notifications" />
+            android:title="Notifications"
+            android:icon="@drawable/ic_notifications_icon"/>
     </group>
 
     <group
@@ -43,7 +49,8 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_setting"
-            android:title="Setting" />
+            android:title="Setting"
+            android:icon="@drawable/ic_settings_icon"/>
     </group>
 
     <group
@@ -51,7 +58,9 @@
         android:checkableBehavior="single">
         <item
             android:id="@+id/nav_help"
-            android:title="help" />
+            android:title="help"
+            android:icon="@drawable/ic_help_icon"
+            />
     </group>
 
 </menu>
